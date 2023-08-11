@@ -1,5 +1,11 @@
 // index.js
 
+// Obtener la URL completa
+const urlCompleta = window.location.href;
+
+// Imprimir la URL en la consola
+console.log('URL completa:', urlCompleta);
+
 // Función para aplicar los estilos al título y fondo
 function aplicarEstilos() {
   // Crear un elemento div para el fondo negro
